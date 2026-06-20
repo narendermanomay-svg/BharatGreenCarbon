@@ -112,7 +112,7 @@ export default function App() {
                   <Leaf className="h-5 w-5 fill-[#cbdaa9]" />
                 </div>
                 <div>
-                  <span className="font-display font-bold text-xl text-[#cbdaa9] tracking-tight">BharatCarbon</span>
+                  <span className="font-display font-bold text-xl text-[#cbdaa9] tracking-tight">BharatGreenCarbon</span>
                   <span className="text-[10px] block font-mono text-gray-400">Carbon & Emissions Registry Hub</span>
                 </div>
               </div>
@@ -124,7 +124,7 @@ export default function App() {
               <div className="space-y-1.5 pt-2">
                 <span className="text-[9px] uppercase tracking-wider text-gray-500 font-bold block font-mono">AVAILABLE LAUNCH BRANDS:</span>
                 <div className="flex flex-wrap gap-2 text-[11px] font-mono font-medium text-emerald-400">
-                  <span className="bg-[#1b4332]/40 rounded px-2.5 py-1">BharatCarbon.com</span>
+                  <span className="bg-[#1b4332]/40 rounded px-2.5 py-1">BharatGreenCarbon.com</span>
                   <span className="bg-[#1b4332]/40 rounded px-2.5 py-1">CarbonTradeIndia.com</span>
                   <span className="bg-[#1b4332]/40 rounded px-2.5 py-1">CarbonMarketIndia.com</span>
                 </div>
@@ -166,7 +166,7 @@ export default function App() {
 
           {/* Bottom Copyright & Badges */}
           <div className="flex flex-col sm:flex-row justify-between items-center gap-6 text-xs text-gray-500 font-mono">
-            <p>© {new Date().getFullYear()} BharatCarbon Registry Platform. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} BharatGreenCarbon Registry Platform. All rights reserved.</p>
             
             {/* Security and compliance symbols */}
             <div className="flex flex-wrap gap-4 items-center">

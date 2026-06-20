@@ -34,7 +34,7 @@ export default function WhatsAppButton() {
                 <span className="absolute bottom-0 right-0 h-2.5 w-2.5 bg-green-400 rounded-full border-2 border-[#1b4332]" />
               </div>
               <div>
-                <h4 className="text-sm font-bold">BharatCarbon Desk</h4>
+                <h4 className="text-sm font-bold">BharatGreenCarbon Desk</h4>
                 <p className="text-[10px] text-emerald-300">Online • Live Broker Support</p>
               </div>
             </div>
@@ -51,7 +51,7 @@ export default function WhatsAppButton() {
           <div className="p-4 bg-gray-50 space-y-4 max-h-72 overflow-y-auto">
             {/* Agent introduction */}
             <div className="bg-white p-3 rounded-2xl shadow-sm inline-block text-xs text-gray-700 leading-normal border border-gray-100 max-w-[85%]">
-              👋 Namaste! Welcome to BharatCarbon. How can our compliance and voluntary credits brokers assist you today?
+              👋 Namaste! Welcome to BharatGreenCarbon. How can our compliance and voluntary credits brokers assist you today?
             </div>
 
             {/* Quick Prompts Options */}

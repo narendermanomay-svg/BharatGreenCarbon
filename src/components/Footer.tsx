@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../logo.png';
+import { Linkedin, Instagram, Youtube } from 'lucide-react';
 export default function Footer() {
   return (
     <footer className="bg-[#0b2f1e] text-white py-10 mt-20">
@@ -27,6 +28,12 @@ export default function Footer() {
     carbon credit trading and sustainability solutions.
   </p>
 </div>
+  
+          <div className="mt-4">
+  <span className="bg-green-700 text-white px-4 py-2 rounded-full text-xs font-semibold">
+    Trusted Carbon Registry Platform
+  </span>
+</div>
 
         <div>
           <h4 className="font-semibold mb-3">Quick Links</h4>
@@ -42,6 +49,12 @@ export default function Footer() {
         </ul> 
             
         </div>
+        
+        <div className="flex gap-4 mt-4">
+        <Linkedin className="w-5 h-5 text-white hover:text-green-400 cursor-pointer" />
+        <Instagram className="w-5 h-5 text-white hover:text-green-400 cursor-pointer" />
+        <Youtube className="w-5 h-5 text-white hover:text-green-400 cursor-pointer" />
+      </div>
 
         <div>
           <h4 className="font-semibold mb-3">Contact</h4>
@@ -62,9 +75,9 @@ export default function Footer() {
 
       </div>
 
-      <div className="border-t border-gray-700 mt-8 pt-4 text-center text-gray-400 text-sm">
-        © 2026 BharatGreenCarbon. All Rights Reserved.
-      </div>
+      <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400 text-sm">
+  © 2026 BharatGreenCarbon | Building India's Carbon Future 🌿
+</div>
     </footer>
   );
 }

@@ -72,9 +72,11 @@ export default function Footer() {
         </p>
       </div>
 
+      </div>
+      
       <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400 text-sm">
   © 2026 BharatGreenCarbon | Building India's Carbon Future 🌿
-</div>
+      </div>
    
       </footer>
   );

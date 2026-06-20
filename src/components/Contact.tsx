@@ -82,7 +82,7 @@ I am interested in procuring verified offsets.
   const triggerRealWhatsAppRedirect = () => {
     const urlEncodedText = encodeURIComponent(generatedWhatsAppMsg);
     // Verified placeholder whatsapp number for mock desk
-    const waNumber = '919999999999';
+    const waNumber = '919220756669';
     window.open(`https://wa.me/${waNumber}?text=${urlEncodedText}`, '_blank', 'noopener,noreferrer');
   };
 

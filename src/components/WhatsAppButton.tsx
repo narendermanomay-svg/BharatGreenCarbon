@@ -7,12 +7,12 @@ export default function WhatsAppButton() {
 
   const QUICK_PROMPTS = [
     { text: '🌱 Offset commercial SME footprint', draft: 'Namaste. I used your emissions estimator and would like to offset our SME corporate footprint. Please send pricing.' },
-    { text: '☀️ Thar Desert Solar offsets', draft: 'Hello BharatCarbon. I would like to purchase certified solar credits from your Bhadla Jodhpur project.' },
+    { text: '☀️ Thar Desert Solar offsets', draft: 'Hello BharatGreenCarbon. I would like to purchase certified solar credits from your Bhadla Jodhpur project.' },
     { text: '🌍 Rural Cookstoves in Gujarat', draft: 'Hello. I would like to invest in voluntary credits originating from your tribal high-efficiency cookstoves distribution in Gujarat.' }
   ];
 
   const handleSendDraft = (draftText: string) => {
-    const textToSend = encodeURIComponent(draftText || userMsg || "Namaste BharatCarbon! I would like to learn more about purchasing verified carbon credits.");
+    const textToSend = encodeURIComponent(draftText || userMsg || "Namaste BharatGreenCarbon! I would like to learn more about purchasing verified carbon credits.");
     const waNumber = '919999999999';
     window.open(`https://wa.me/${waNumber}?text=${textToSend}`, '_blank', 'noopener,noreferrer');
     setIsOpen(false);

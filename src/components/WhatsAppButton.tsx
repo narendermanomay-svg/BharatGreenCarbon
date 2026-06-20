@@ -13,7 +13,7 @@ export default function WhatsAppButton() {
 
   const handleSendDraft = (draftText: string) => {
     const textToSend = encodeURIComponent(draftText || userMsg || "Namaste BharatGreenCarbon! I would like to learn more about purchasing verified carbon credits.");
-    const waNumber = '919999999999';
+    const waNumber = '919220756669';
     window.open(`https://wa.me/${waNumber}?text=${textToSend}`, '_blank', 'noopener,noreferrer');
     setIsOpen(false);
   };

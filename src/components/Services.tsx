@@ -20,36 +20,36 @@ export default function Services() {
       icon: <Compass className="h-6 w-6" />,
       title: 'Carbon Asset Development & Onboarding',
       shortDesc: 'End-to-end feasibility assessment, baseline study, and technical project design documentation (PDD) for green-tech operators.',
-      longDesc: 'We assist regional project developers (solar owners, biogas producers, and sustainable agricultural collectives) from the initial project idea to registry listing. We design the baseline emissions calculations, register with host nations, and list on international markets.',
-      caseStudy: 'Helped Punajb Clean Agro secure BEE accreditation for 80,000 tons of bio-CNG generation credits.',
-      feeStructure: 'Success-based model: 12% - 15% of minted credits.'
+      longDesc: 'We assist regional project developers (solar owners, biogas producers, and sustainable agricultural collectives) from the initial project idea to registration and issuance of carbon credits.',      caseStudy: 'Helped Punajb Clean Agro secure BEE accreditation for 80,000 tons of bio-CNG generation credits.',
+      caseStudy: 'Helped Punjab Clean Agro secure BEE accreditation for 80,000 tons of bio-CNG generation credits.',
+      feeStructure: 'Success-based model: 12% - 15% of minted credits.',
     },
     {
       id: 'srv-02',
       icon: <ClipboardCheck className="h-6 w-6" />,
-      title: 'Credit Validation & Independent Auditing',
-      shortDesc: 'Rigorous remote sensing, soil sampling coordinates, and independent third-party monitoring to secure registry sign-offs.',
-      longDesc: 'Ensuring absolute ecological transparency. We coordinate audits with recognized Designated Operational Entities (DOEs) for Verra and Gold Standard, mitigating all compliance hazards and double-spending risks.',
-      caseStudy: 'Completed comprehensive high-resolution satellite biomass mapping of Western Ghats reforestation projects.',
-      feeStructure: 'Flat retainer per verification cycles.'
+      title: 'Carbon Credit Verification & Compliance',
+      shortDesc: 'Independent validation, monitoring and compliance support for carbon projects.',
+      longDesc: 'We coordinate with recognized standards and ensure projects meet all documentation and monitoring requirements.',
+      caseStudy: 'Supported multiple renewable energy and bio-CNG projects in achieving compliance standards.',
+      feeStructure: 'Flexible verification support model.',
     },
     {
       id: 'srv-03',
       icon: <ArrowLeftRight className="h-6 w-6" />,
-      title: 'Bulk Credit Sourcing & Liquid Trading',
-      shortDesc: 'Direct-to-treasurer OTC trading desk helping corporate enterprises procure offsets securely under Spot or Futures agreement formats.',
-      longDesc: 'Designed for corporate ESG coordinators. We aggregate carbon supply across India to supply custom volumes at locked rates. We handle escrow, contract settlement, and official retirement certificates on your behalf.',
-      caseStudy: 'Facilitated a single 250k-ton solar credit purchase block for a major tier-1 Indian electronics assembly group.',
-      feeStructure: 'Transparent markup on buy-sell spreads.'
+      title: 'Carbon Credit Trading & Brokerage',
+      shortDesc: 'Connecting buyers and sellers through transparent carbon credit transactions.',
+      longDesc: 'We help companies purchase and trade verified carbon credits with secure and reliable execution.',
+      caseStudy: 'Facilitated carbon credit transactions for sustainability-focused organizations.',
+      feeStructure: 'Transaction-based brokerage model.',
     },
     {
       id: 'srv-04',
       icon: <Landmark className="h-6 w-6" />,
-      title: 'Regulatory Market Advisory (BEE Compliance)',
-      shortDesc: 'Guidance on navigating the transition from voluntary markets to India’s mandated scheme for high-intensity factories.',
-      longDesc: 'As India moves towards mandatory carbon limits, we specialize in scenario modeling for high-intensity industries. We help you prepare for BEE allocations, balance voluntary vs compliance credits, and maximize state subsidies.',
-      caseStudy: 'Advised a large steel foundry group in West Bengal on their multi-year carbon baseline liabilities.',
-      feeStructure: 'Retainer advisory contracts.'
+      title: 'ESG & Sustainability Consulting',
+      shortDesc: 'Helping businesses achieve sustainability goals and ESG compliance through strategic solutions.',
+      longDesc: 'We provide ESG advisory, carbon footprint assessment and sustainability strategies for companies committed to net-zero goals.',
+      caseStudy: 'Supported organizations in implementing ESG frameworks and sustainable business practices.',
+      feeStructure: 'Customized consulting engagement model.'
     }
   ];
 

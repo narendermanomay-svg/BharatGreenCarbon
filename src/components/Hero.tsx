@@ -7,7 +7,7 @@ interface HeroProps {
 
 export default function Hero({ onNavigate }: HeroProps) {
   const triggerWhatsApp = () => {
-    const text = encodeURIComponent("Namaste BharatCarbon team. I visited your marketplace portal and would like to learn more about purchasing verified carbon credits to offset our business emissions.");
+    const text = encodeURIComponent("Namaste BharatGreenCarbon team. I visited your marketplace portal and would like to learn more about purchasing verified carbon credits to offset our business emissions.");
     window.open(`https://wa.me/919999999999?text=${text}`, '_blank', 'noopener,noreferrer');
   };
 

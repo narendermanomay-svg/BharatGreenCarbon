@@ -82,14 +82,13 @@ export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
           {/* Logo */}
-          <button 
-            onClick={() => handleMenuClick('home')}
-            <img
-  src={logo}
-  alt="BharatGreenCarbon"
-  className="h-20 w-auto"
-/>
-          </button>
+          <button onClick={() => handleMenuClick('home')}>
+          <img
+           src={logo}
+           alt="BharatGreenCarbon"
+           className="h-20 w-auto"
+         />
+       </button>
 
           {/* Desktop Links */}
           <div className="hidden lg:flex items-center space-x-1 select-none">

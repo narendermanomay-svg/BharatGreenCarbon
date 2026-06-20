@@ -8,7 +8,7 @@ interface HeroProps {
 export default function Hero({ onNavigate }: HeroProps) {
   const triggerWhatsApp = () => {
     const text = encodeURIComponent("Namaste BharatGreenCarbon Team. I visited your marketplace portal and would like to learn more about purchasing verified carbon credits to offset our business emissions.");
-    window.open(`https://wa.me/919999999999?text=${text}`, '_blank', 'noopener,noreferrer');
+    window.open(`https://wa.me/919220756669?text=${text}`, '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -30,13 +30,10 @@ export default function Hero({ onNavigate }: HeroProps) {
             {/* Main Headline */}
             <div className="space-y-3">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-medium tracking-tight text-[#0f251c] leading-[1.1]">
-                Empowering India’s <br />
-                <span className="text-[#1b4332] font-semibold underline decoration-[#cbdaa9] decoration-4">
-                  Sovereign Carbon Market
-                </span>
+                Empowering India's Sovereign Carbon Market
               </h1>
               <p className="text-gray-600 text-lg sm:text-xl max-w-xl font-sans leading-relaxed">
-                BharatGreenCarbon is India's premium tech-integrated marketplace for verified carbon offsets. Connect with top-tier indigenous renewable, agricultural, and afforestation projects.
+                BharatGreenCarbon is India's trusted carbon credit marketplace, connecting businesses with verified carbon projects and sustainable climate solutions.
               </p>
             </div>
 
@@ -46,7 +43,7 @@ export default function Hero({ onNavigate }: HeroProps) {
                 onClick={() => onNavigate('projects')}
                 className="bg-[#1b4332] hover:bg-[#153426] text-white py-4 px-8 rounded-full font-semibold transition flex items-center justify-center space-x-2 shadow-lg shadow-green-900/10 active:scale-95 cursor-pointer"
               >
-                <span>Browse Carbon Projects</span>
+                <span>Explore Carbon Projects</span>
                 <ArrowDownRight className="h-5 w-5" />
               </button>
               
@@ -55,7 +52,7 @@ export default function Hero({ onNavigate }: HeroProps) {
                 className="bg-white hover:bg-gray-50 border-2 border-gray-100 hover:border-[#1b4332]/20 text-[#1b4332] py-4 px-8 rounded-full font-semibold transition flex items-center justify-center space-x-2 active:scale-95 cursor-pointer"
               >
                 <Calculator className="h-5 w-5 text-green-700" />
-                <span>Estimate My Footprint</span>
+                <span>Carbon Footprint Calculator</span>
               </button>
 
               <button
@@ -63,7 +60,7 @@ export default function Hero({ onNavigate }: HeroProps) {
                 className="bg-emerald-500 hover:bg-emerald-600 text-white py-4 px-6 rounded-full font-semibold transition flex items-center justify-center space-x-2 active:scale-95 md:hidden cursor-pointer"
               >
                 <MessageSquare className="h-5 w-5" />
-                <span>WhatsApp Quote</span>
+                <span>Contact on WhatsApp</span>
               </button>
             </div>
 

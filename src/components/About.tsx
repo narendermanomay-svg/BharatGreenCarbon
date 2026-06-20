@@ -27,7 +27,7 @@ export default function About() {
         {/* Section Header */}
         <div className="max-w-3xl mx-auto text-center space-y-4 mb-16 md:mb-20">
           <h2 className="text-xs font-bold uppercase tracking-widest text-[#1b4332] font-mono">
-            About BharatCarbon
+            About BharatGreenCarbon
           </h2>
           <p className="text-3xl sm:text-4xl font-display font-medium text-[#0f251c] tracking-tight">
             Bridging India's Ecologists with Global Enterprises
@@ -39,7 +39,7 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           <div className="space-y-6">
             <h3 className="text-2xl font-bold text-[#1b4332] tracking-tight font-display">
-              Why We Started BharatCarbon
+              Why We Started BharatGreenCarbon
             </h3>
             <p className="text-gray-600 leading-relaxed">
               India is poised to become one of the largest emitters, yet possesses unparalleled potential for carbon sequestration, renewable scaling, and agricultural biogas innovation. 
@@ -48,7 +48,7 @@ export default function About() {
               Many local project developers—whether small wind farms in Tamil Nadu or sustainable farm cooperatives in Punjab—face massive structural bottlenecks in seeking international accreditation or getting paid fairly.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              <strong>BharatCarbon</strong> was built to solve this. We are an institutional-grade, tech-enabled carbon desk matching verify-ready Indian carbon projects with responsible domestic clean-energy buyers.
+              <strong>BharatGreenCarbon</strong> was built to solve this. We are an institutional-grade, tech-enabled carbon desk matching verify-ready Indian carbon projects with responsible domestic clean-energy buyers.
             </p>
             
             {/* National Action Block */}
@@ -57,7 +57,7 @@ export default function About() {
               <div>
                 <h4 className="text-sm font-bold text-[#1b4332]">Indian Carbon Market (ICM) Transition</h4>
                 <p className="text-xs text-[#0f251c] mt-1">
-                  In line with the updated Energy Conservation Act, India is setting up its national compliance carbon market. BharatCarbon aligns directly with the Bureau of Energy Efficiency (BEE) blueprint to ensure zero transition friction.
+                  In line with the updated Energy Conservation Act, India is setting up its national compliance carbon market. BharatGreenCarbon aligns directly with the Bureau of Energy Efficiency (BEE) blueprint to ensure zero transition friction.
                 </p>
               </div>
             </div>

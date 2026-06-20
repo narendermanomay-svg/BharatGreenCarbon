@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  
+  /* Indian Earth tones */
+  --color-earth-50: #f4f6f0;
+  --color-earth-100: #e5eadc;
+  --color-earth-200: #cbdaa9;
+  --color-earth-500: #1b4332;
+  --color-earth-600: #153426;
+  --color-earth-700: #0f251c;
+}

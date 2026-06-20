@@ -42,17 +42,18 @@ export default function Contact({ preselectedProjectName, prefilledEstimatedCred
 
   // Regenerate dynamic WhatsApp message preview in real-time
   useEffect(() => {
-    const text = `Namaste BharatCarbon Desk!
-I am interested in procuring verified offsets.
+    const text = `Hello BharatGreenCarbon Team,
+    
+I am interested in purchasing carbon credits.
+
 • Buyer Name: ${form.name || '[Your Name]'}
 • Company: ${form.company || '[Your Company]'}
 • Contact: ${form.phone || '[Your Phone]'} / ${form.email || '[Email]'}
 • Target Project: ${form.projectInterest}
 • Estimated Credit Volume: ${form.estimatedCredits} Metric Tons of CO2e
-• Additional Notes: ${form.message || 'Please send available allocations, registries proof, and dynamic pricing quotation.'}`;
+• Additional Notes: ${form.message || 'Please send available allocations and pricing quotation.'}`;
     setGeneratedWhatsAppMsg(text);
-  }, [form]);
-
+    }, [form]);
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
     setForm(prev => ({

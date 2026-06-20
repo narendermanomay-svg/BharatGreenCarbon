@@ -29,7 +29,7 @@ export default function ProjectsSection({ onSelectProjectForInquiry }: ProjectsS
 
   const triggerWhatsAppForProject = (project: CarbonProject) => {
     const text = encodeURIComponent(
-      `Hello BharatCarbon! I would like to inquire about procuring verified offsets from: "${project.name}" (ID: ${project.id}). Please send pricing and allocation availability.`
+      `Hello BharatGreenCarbon! I would like to inquire about procuring verified offsets from: "${project.name}" (ID: ${project.id}). Please send pricing and allocation availability.`
     );
     window.open(`https://wa.me/919999999999?text=${text}`, '_blank', 'noopener,noreferrer');
   };

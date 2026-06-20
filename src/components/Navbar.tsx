@@ -85,10 +85,10 @@ export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
           <button 
             onClick={() => handleMenuClick('home')}
             <img
-  src={logo}
-  alt="BharatGreenCarbon"
-  className="h-20 w-auto"
-/>    
+            src={logo}
+            alt="BharatGreenCarbon"
+            className="h-20 w-auto"
+         />
           </button>
 
           {/* Desktop Links */}

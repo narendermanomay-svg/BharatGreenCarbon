@@ -1,5 +1,5 @@
 import React from 'react';
-
+import logo from '../logo.png';
 export default function Footer() {
   return (
     <footer className="bg-[#0b2f1e] text-white py-10 mt-20">
@@ -7,7 +7,7 @@ export default function Footer() {
 
         <div>
   <img
-    src="/logo.png"
+    src={logo}
     alt="BharatGreenCarbon"
     className="h-16 mb-4"
   />

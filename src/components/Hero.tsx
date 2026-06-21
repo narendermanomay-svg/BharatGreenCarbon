@@ -100,6 +100,7 @@ export default function Hero({ onNavigate }: HeroProps) {
                 </div>
                 <div className="bg-emerald-100 text-emerald-800 text-[10px] font-bold px-2 py-0.5 rounded-full font-mono">
               </div>
+              </div>
               {/* Central Graphics or Mini Dashboard Visual */}
               <div className="space-y-4">
                 <h4 className="text-xs font-semibold text-gray-400 uppercase tracking-wider font-mono">Core Services</h4>

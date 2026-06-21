@@ -145,8 +145,8 @@ I am interested in purchasing carbon credits.
                   <div>
                     <h4 className="text-xs font-bold font-mono text-gray-400 uppercase">DELHI COMPLIANCE OFFICE</h4>
                     <p className="text-sm text-gray-700 leading-relaxed">
-                      Barakhamba Road, Connaught Place,<br />
-                      New Delhi, Delhi 110001
+                      33/1, DSIIDC Industrial Complex, Jilmil Industrial Area,<br />
+                      Delhi, Delhi 110092
                     </p>
                   </div>
                 </div>
@@ -199,7 +199,7 @@ I am interested in purchasing carbon credits.
                       name="name"
                       value={form.name}
                       onChange={handleInputChange}
-                      placeholder="e.g. Narender Kumar"
+                      placeholder="e.g. Abcd"
                       className="w-full bg-gray-50 border border-gray-200 text-sm px-4 py-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#1b4332]/20 focus:border-[#1b4332] transition"
                     />
                   </div>
@@ -213,7 +213,7 @@ I am interested in purchasing carbon credits.
                       name="company"
                       value={form.company}
                       onChange={handleInputChange}
-                      placeholder="e.g. Manomay Logistics Ltd"
+                      placeholder="e.g."
                       className="w-full bg-gray-50 border border-gray-200 text-sm px-4 py-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#1b4332]/20 focus:border-[#1b4332] transition"
                     />
                   </div>
@@ -229,7 +229,7 @@ I am interested in purchasing carbon credits.
                       name="email"
                       value={form.email}
                       onChange={handleInputChange}
-                      placeholder="e.g. partner@manomay.co"
+                      placeholder="e.g."
                       className="w-full bg-gray-50 border border-gray-200 text-sm px-4 py-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#1b4332]/20 focus:border-[#1b4332] transition"
                     />
                   </div>

@@ -199,7 +199,7 @@ I am interested in purchasing carbon credits.
                       name="name"
                       value={form.name}
                       onChange={handleInputChange}
-                      placeholder="e.g. Abcd"
+                      placeholder="e.g."
                       className="w-full bg-gray-50 border border-gray-200 text-sm px-4 py-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#1b4332]/20 focus:border-[#1b4332] transition"
                     />
                   </div>
@@ -243,7 +243,7 @@ I am interested in purchasing carbon credits.
                       name="phone"
                       value={form.phone}
                       onChange={handleInputChange}
-                      placeholder="e.g. +91 92207 56669"
+                      placeholder="e.g."
                       className="w-full bg-gray-50 border border-gray-200 text-sm px-4 py-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#1b4332]/20 focus:border-[#1b4332] transition"
                     />
                   </div>

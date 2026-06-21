@@ -20,6 +20,7 @@ import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
 import { Leaf, Award, Globe, Shield, RefreshCw } from 'lucide-react';
 import IndustriesWeServe from "./components/IndustriesWeServe";
+import WhyChooseUs from './components/WhyChooseUs';
 
 export default function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -92,6 +93,8 @@ export default function App() {
         <Services />
 
         <IndustriesWeServe />
+
+        <WhyChooseUs />
      
         {/* Section 4: Carbon Projects Catalog */}
         <ProjectsSection onSelectProjectForInquiry={handleSelectProjectForInquiry} />

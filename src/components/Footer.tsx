@@ -49,7 +49,21 @@ export default function Footer() {
         </ul> 
             
         </div>
-        
+
+<div>
+<div className="flex gap-4 mt-4">
+    <Linkedin ... />
+    <Instagram ... />
+    <Youtube ... />
+  </div>
+
+  <div className="mt-6">
+    <h4>Contact</h4>
+    ...
+    <h4>Location</h4>
+    ...
+  </div>
+</div>
         <div className="flex gap-4 mt-4">
         <Linkedin className="w-5 h-5 text-white hover:text-green-400 cursor-pointer" />
         <Instagram className="w-5 h-5 text-white hover:text-green-400 cursor-pointer" />

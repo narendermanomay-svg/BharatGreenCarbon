@@ -165,8 +165,7 @@ export default function Hero({ onNavigate }: HeroProps) {
             <div className="absolute top-1/2 left-1/2 ...">
             <div className="absolute -top-10 right-10 h-32 w-32 bg-[#cbdaa9]/20 rounded-full blur-2xl z-10"></div>
         </div>
-        </div>
-        </div>
+        
      </section>
   );
 }

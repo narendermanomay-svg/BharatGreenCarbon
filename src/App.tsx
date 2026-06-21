@@ -19,6 +19,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
 import { Leaf, Award, Globe, Shield, RefreshCw } from 'lucide-react';
+import IndustriesWeServe from "./components/IndustriesWeServe";
 
 export default function App() {
   const [activeSection, setActiveSection] = useState('home');

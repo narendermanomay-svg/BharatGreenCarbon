@@ -86,7 +86,7 @@ export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
           <img
            src={logo}
            alt="BharatGreenCarbon"
-           className="h-26 w-auto"
+           className="h-23 w-auto"
          />
        </button>
 

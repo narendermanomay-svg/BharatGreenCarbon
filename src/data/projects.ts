@@ -77,7 +77,7 @@ export const INDIAN_PROJECTS: CarbonProject[] = [
     pricePerTonUSD: 11.40,
     creditSupply: 95000,
     developer: 'Arohan Rural Development Foundation',
-    image: 'https://images.unsplash.com/photo-1518152006812-cdab29b069a8?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=800&q=80',
     benefits: ['Lowers indoor particulate counts', 'Saves rural women 4+ hours daily in firewood gathering', 'Saves local woodland canopy'],
     standard: 'Gold Standard'
   },

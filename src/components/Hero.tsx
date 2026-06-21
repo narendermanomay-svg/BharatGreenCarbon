@@ -162,9 +162,14 @@ export default function Hero({ onNavigate }: HeroProps) {
             </div>
 
             {/* Decorative background shapes */}
-            <div className="absolute top-1/2 left-1/2 ...">
-            <div className="absolute -top-10 right-10 h-32 w-32 bg-[#cbdaa9]/20 rounded-full blur-2xl z-10"></div>
-           </div>
-    </section>
-    );
-    }
+<div className="absolute top-1/2 left-1/2 ...">
+  <div className="absolute -top-10 right-10 h-32 w-32 bg-[#cbdaa9]/20 rounded-full blur-2xl z-10"></div>
+</div>
+
+</div>   {/* Hero Right Visual Column */}
+</div>   {/* grid */}
+</div>   {/* max-w-7xl */}
+
+</section>
+);
+}

@@ -162,12 +162,11 @@ export default function Hero({ onNavigate }: HeroProps) {
             </div>
 
             {/* Decorative background shapes */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[120%] w-[120%] bg-gradient-to-tr from-green-100/30 via-emerald-500/5 to-transparent rounded-full blur-3xl -z-10"></div>
-            <div className="absolute -top-10 -right-10 h-32 w-32 bg-[#cbdaa9]/20 rounded-full blur-2xl -z-10"></div>
-          </div>
-
+            <div className="absolute top-1/2 left-1/2 ...">
+            <div className="absolute -top-10 right-10 h-32 w-32 bg-[#cbdaa9]/20 rounded-full blur-2xl z-10"></div>
         </div>
-      </div>
-    </section>
+        </div>
+        </div>
+     </section>
   );
 }

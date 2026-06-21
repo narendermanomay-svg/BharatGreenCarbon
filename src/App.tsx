@@ -91,6 +91,8 @@ export default function App() {
         {/* Section 3: Services */}
         <Services />
 
+        <IndustriesWeServe />
+     
         {/* Section 4: Carbon Projects Catalog */}
         <ProjectsSection onSelectProjectForInquiry={handleSelectProjectForInquiry} />
 

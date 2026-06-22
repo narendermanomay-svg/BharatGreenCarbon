@@ -77,9 +77,7 @@ export default function App() {
   setInquiryCredits(creditsQuantity);
 };
 
-if (window.location.pathname === "/sushant") {
   return <SushantCard />;
-}
 
 return (
     <div className="min-h-screen bg-white font-sans text-gray-900 selection:bg-[#cbdaa9] selection:text-[#1b4332] antialiased">

@@ -65,7 +65,7 @@ export default function Footer() {
   </p>
 
   <p className="text-gray-300 text-sm">
-    ✉️ info@bharatgreencarbon.com
+    ✉️ ceo@bharatgreencarbon.com
   </p>
 </div>
         

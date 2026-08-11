@@ -133,7 +133,7 @@ I am interested in purchasing carbon credits.
                   </div>
                   <div>
                     <h4 className="text-xs font-bold font-mono text-gray-400 uppercase">OFFICIAL ESG AGENTS EMAIL</h4>
-                    <p className="text-base text-gray-900 font-medium font-mono">info@bharatgreencarbon.com</p>
+                    <p className="text-base text-gray-900 font-medium font-mono">ceo@bharatgreencarbon.com</p>
                     <p className="text-[11px] text-gray-400">Response average: 2 hours</p>
                   </div>
                 </div>
